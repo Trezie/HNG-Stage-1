@@ -10,15 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
         return days[dayIndex];
     }
 
-    // Function to format a date as a string in a specific format (e.g., "Monday, September 11, 2023 12:34:56 UTC")
-    function formatUTCDate(date) {
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' };
-        return date.toLocaleString('en-US', options);
+    // Function to get the current UTC time in milliseconds
+    function getCurrentUTCTime() {
+        return new Date().getTime();
     }
 
     // Update the page elements
     dayOfWeek.textContent = getCurrentDayOfWeek();
-    const currentUTCDate = new Date();
-    utcTime.textContent =  formatUTCDate(currentUTCDate);
+    utcTime.textContent = getCurrentUTCTime();
 });
+
 
