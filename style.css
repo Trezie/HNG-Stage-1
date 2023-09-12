@@ -27,15 +27,15 @@ html{
 }
 
 .image{
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 .frontend{
     margin-bottom: 15px;
 }
 .card {
-    width: 400px; /* Adjust the width as needed */
+    width: 350px; /* Adjust the width as needed */
     padding: 20px;
     margin: 0 auto; /* Center horizontally using margin */
     text-align: center; /* Center text content horizontally */
