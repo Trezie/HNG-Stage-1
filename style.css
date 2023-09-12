@@ -34,3 +34,16 @@ html{
 .frontend{
     margin-bottom: 15px;
 }
+.card {
+    width: 400px; /* Adjust the width as needed */
+    padding: 20px;
+    margin: 0 auto; /* Center horizontally using margin */
+    text-align: center; /* Center text content horizontally */
+    display: flex; /* Use flexbox for vertical centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    border: 1px solid #ccc; /* Optional border for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional box shadow */
+    background-color: #fff; /* Optional background color */
+}
